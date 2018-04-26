@@ -13,7 +13,10 @@ import { Assignment6Module } from './assignment6/assignment6.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GameComponent,
+    OddComponent,
+    EvenComponent
   ],
   imports: [
     BrowserModule,
