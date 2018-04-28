@@ -1,9 +1,13 @@
 ## Assignment 4
 
-Créer une application Angular contenant un Service GameService et 3 composants : GameComponent, OddComponent et EvenComponent
-Le GameComponent doit se trouver dans le AppComponent, et contenir un bouton : “Start”
-Quand on clique sur Start, un compteur se lance grâce à RxJS, et toutes les secondes, on ajoute un component dans le GameComponent (les un en dessous des autres), soit un OddComponent ou un EvenComponent en fonction de la parité de la seconde.
-Quand le compteur tourne, il faut aussi changer le texte du bouton et indiquer “Stop”.
-Cliquer sur Stop va stopper le compteur et enlever tous les component Odd et Even.
-Le OddComponent et le EvenComponent doivent prendre en paramètre le nombre de seconde, et l’afficher.
-Affichez d’une couleur différente le nombre des secondes contenus dans les component en fonction de la parité du nombre
+1. Create three new components: GameControl, Odd and Even
+2. The GameControl Component should have buttons to start and stop the game
+3. When starting the game, an event (holding an incrementing number) should get emitted each second (ref = setInterval())
+4. The event should be listenable from outside the component
+5. When stopping the game, no more events should get emitted (clearInterval(ref))
+6. A new Odd component should get created for every odd number emitted, the same should happen for the Even Component (on even numbers)
+7. Simply output Odd - NUMBER or Even - NUMBER in the two components
+8. Style the element (e.g. paragraph) holding your output text differently in both components
+
+
+You can't make any change in parent folder
