@@ -1,17 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Assignment4Component } from './assignment4.component';
-import { GameControlComponent } from './game-control.component';
-import { OddComponent } from './odd.component';
-import { EvenComponent } from './even.component';
-import { BrowserModule } from '@angular/platform-browser';
+import { Assignment3Component } from './assignment3.component';
 
 @NgModule({
   imports: [
-    CommonModule,
-    BrowserModule
+    CommonModule
   ],
-  exports: [Assignment4Component],
-  declarations: [Assignment4Component, GameControlComponent, OddComponent, EvenComponent]
+  exports: [Assignment3Component],
+  declarations: [Assignment3Component]
 })
-export class Assignment4Module { }
+export class Assignment3Module { }

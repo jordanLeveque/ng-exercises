@@ -5,4 +5,5 @@
 3. Output a warning or success message in the Components
 4. Style the Components appropriately (maybe some red/green text?)
 
+You can't make any change in parent folder 
 Use external or internal templates and styles!

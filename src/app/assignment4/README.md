@@ -8,3 +8,6 @@
 6. A new Odd component should get created for every odd number emitted, the same should happen for the Even Component (on even numbers)
 7. Simply output Odd - NUMBER or Even - NUMBER in the two components
 8. Style the element (e.g. paragraph) holding your output text differently in both components
+
+
+You can't make any change in parent folder
