@@ -24,9 +24,9 @@ import { Assignment6Module } from './assignment6/assignment6.module';
     Assignment3Module,
     Assignment4Module,
     Assignment5Module,
-    Assignment6Module
+    Assignment6Module,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
