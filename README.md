@@ -27,3 +27,16 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# Resolve exercices 
+
+Fork this repo if you didn't fork it before.
+
+Read the `README.md` inside the assignment folder
+Chose the assignment you will work on and uncomment it, in the `app.component.html`
+Run `ng serve` and start adding your code.
+
+Remember you have no code to put outside the assignment folder
+
+configure Travis to run test on your repo.
