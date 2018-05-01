@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { Assignment1Module } from './assignment1/assignment1.module';
@@ -18,7 +18,7 @@ import { Assignment6Module } from './assignment6/assignment6.module';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpClientModule,
     Assignment1Module,
     Assignment2Module,
     Assignment3Module,
