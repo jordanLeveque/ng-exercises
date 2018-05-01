@@ -7,7 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
   imports: [
     CommonModule,
     BrowserModule,
-    FormsModule,
+    FormsModule
   ],
 })
 export class Assignment6Module { }

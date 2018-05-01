@@ -7,10 +7,10 @@
     "start": "ng serve",
     "build": "ng build",
     "lint": "npm run lint:style && npm run lint:front && npm run lint:html",
-    "lint:style": "stylelint 'client/**/*{.css,.scss}'",
+    "lint:style": "stylelint 'src/**/*{.css,.scss}'",
     "lint:front": "ng lint",
-    "lint:html": "htmllint client/**/*.html",
-    "lint:autofix": "ng lint --fix && stylelint 'client/**/*{.css,.scss}' --fix",
+    "lint:html": "htmllint src/**/*.html",
+    "lint:autofix": "ng lint --fix && stylelint 'src/**/*{.css,.scss}' --fix",
     "test:front": "ng test --watch=false",
     "e2e": "ng e2e"
   },
