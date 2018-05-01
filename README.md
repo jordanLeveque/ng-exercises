@@ -37,6 +37,10 @@ Read the `README.md` inside the assignment folder
 Chose the assignment you will work on and uncomment it, in the `app.component.html`
 Run `ng serve` and start adding your code.
 
+**Warning** in `TDD` you have to write your components tests straight after preparing your environment, you start coding when your test are done ! 
+
+Each component have to be tester and each test file have to be fill before you start code (`commit` will be checked)
+
 Remember you have no code to put outside the assignment folder
 
 configure Travis to run test on your repo.
