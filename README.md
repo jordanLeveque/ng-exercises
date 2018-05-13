@@ -1,7 +1,7 @@
 # NgExercises
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jordanLeveque/ng-exercises.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/jordanLeveque/ng-exercises.svg?branch=master)](https://travis-ci.org/jordanLeveque/ng-exercises)
+[![Greenkeeper badge](https://badges.greenkeeper.io/riderx/ng-exercises.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/riderx/ng-exercises.svg?branch=master)](https://travis-ci.org/riderx/ng-exercises)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
