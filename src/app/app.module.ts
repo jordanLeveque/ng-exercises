@@ -1,3 +1,4 @@
+import { Assignment2Component } from './assignment2/assignment2.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -10,10 +11,15 @@ import { Assignment3Module } from './assignment3/assignment3.module';
 import { Assignment4Module } from './assignment4/assignment4.module';
 import { Assignment5Module } from './assignment5/assignment5.module';
 import { Assignment6Module } from './assignment6/assignment6.module';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './success-alert/success-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    WarningAlertComponent,
+    SuccessAlertComponent,
+    Assignment2Component
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,6 @@
+<p>click on the button to reset the value</p>
+<input (keyup)="onKey($event)" value='{{values}}'>
+<button [disabled]='validForm()' (click)='values = ""'>reset</button>
+<p>user :
+  <span class='val'>{{values}}</span>
+</p>
