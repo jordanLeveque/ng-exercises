@@ -19,7 +19,7 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
     AppComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    Assignment2Component
+    Assignment2Component,
   ],
   imports: [
     BrowserModule,

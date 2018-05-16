@@ -8,7 +8,7 @@ describe('Assignment2Component', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Assignment2Component ]
+      declarations: [Assignment2Component],
     })
     .compileComponents();
   }));
